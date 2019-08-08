@@ -36,3 +36,16 @@ def nyc_pigeon_organizer(data)
       :lives => ["Central Park"]
     }
 end
+
+pigeon_data [:Luca] 
+  "Luca" => {
+    :color => ["brown"]
+    :gender => ["male"]
+    :lived => ["Central Park"]
+  },
+pigeon_data [:Lola]
+  "Lola" => {
+    :color => ["black"]
+    :gender => ["female"]
+    :lives => ["Library"]
+  }
