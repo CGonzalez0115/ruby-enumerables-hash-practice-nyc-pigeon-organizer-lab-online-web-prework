@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
       :gender => ["male"]
       :lives => ["Subway"]
     },
-    
+
     :color => {
       :purple => ["Peter Jr.", "Lucky"],
       :grey => ["Peter Jr.", "Ms. K"],
