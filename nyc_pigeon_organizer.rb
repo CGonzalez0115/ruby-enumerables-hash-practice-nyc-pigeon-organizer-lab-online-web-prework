@@ -5,22 +5,34 @@ def nyc_pigeon_organizer(data)
       :gender => ["male"]
       :lives => ["Subway"]
     },
-
-    :color => {
-      :purple => ["Peter Jr.", "Lucky"],
-      :grey => ["Peter Jr.", "Ms. K"],
-      :white => ["Queenie", "Andrew", "Ms. K", "Alex"],
-      :brown => ["Queenie", "Alex"]
+    "Peter Jr." => {
+      :color => ["purple", "grey"]
+      :gender => ["male"]
+      :lives => ["Library"]
     },
-    :gender => {
-      :male => ["Alex", "Peter Jr.", "Andrew", "Lucky"],
-      :female => ["Queenie", "Ms. K"]
+    "Lucky" => {
+      :color => ["purple"]
+      :gender => ["male"]
+      :lives => ["Central Park"]
     },
-    :lives => {
-      "Subway" => ["Queenie"],
-      "Central Park" => ["Alex", "Ms. K", "Lucky"],
-      "Library" => ["Peter Jr."],
-      "City Hall" => ["Andrew"]
+    "Mrs. K" => {
+      :color => ["grey", "white"]
+      :gender => ["female"]
+      :lives => ["Central Park"]
+    },
+    "Queenie" => {
+      :color => ["white", "brown"]
+      :gender => ["female"]
+      :lives => ["Subway"]
+    },
+    "Andrew" => {
+      :color => ["white"]
+      :gender => ["male"]
+      :lives => ["City Hall"]
+    },
+    "Alex" => {
+      :color => ["white", "brown"]
+      :gender => ["male"]
+      :lives => ["Central Park"]
     }
-  }  # write your code here!
 end
