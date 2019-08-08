@@ -37,7 +37,7 @@ def nyc_pigeon_organizer(data)
     }
 end
 
-pigeon_data [:Luca] 
+pigeon_data [:Luca]
   "Luca" => {
     :color => ["brown"]
     :gender => ["male"]
